@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Educational Website Landing Page</title>
+    <!--swiper css link-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!--font awesome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!--custom css file link -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Header section starts-->
+    <header class="header">
+      <section class="flex">
+        <a href="#home" class="logo">educa.</a>
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#teachers">Teachers</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+
+    <!--Header section ends-->
+
+    <!--Home section starts-->
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>online <span>education</span></h3>
+          <a href="#contact" class="btn">contact us</a>
+        </div>
+        <div class="image">
+          <img src="images/Online learning-bro.svg" alt="image-1" />
+        </div>
+      </div>
+    </section>
+
+    <!--Home section ends-->
+
+    <!--counter section starts-->
+
+    <section class="count">
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="content">
+            <h3>150+</h3>
+            <p>courses</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-user-graduate"></i>
+          <div class="content">
+            <h3>1300+</h3>
+            <p>students</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-chalkboard-user"></i>
+          <div class="content">
+            <h3>80+</h3>
+            <p>teachers</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-face-smile"></i>
+          <div class="content">
+            <h3>100%</h3>
+            <p>satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--counter section ends-->
+
+    <!--about section starts-->
+
+    <section class="about" id="about">
+      <div class="row">
+        <div class="image">
+          <img src="images/Analysis-bro.svg" alt="" />
+        </div>
+        <div class="content">
+          <h3>why choose us?</h3>
+          <p>
+            Opt for our platform for expert-curated content, personalized
+            learning paths, and a supportive community to enhance your
+            educational journey.
+          </p>
+          <a href="#contact" class="btn">contact us</a>
+        </div>
+      </div>
+    </section>
+
+    <!--about section ends-->
+
+    <!--courses section starts-->
+    <section class="courses" id="courses">
+      <h1 class="heading">our <span>courses</span></h1>
+      <div class="swiper course-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/courses/course-1.svg" alt="" />
+            <h3>web development</h3>
+            <p>
+              Master coding languages and frameworks to build dynamic websites
+              and applications, from HTML/CSS basics to advanced JavaScript and
+              React development.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/courses/course-2.svg" alt="" />
+            <h3>digital marketing</h3>
+            <p>
+              Dive into the world of online advertising, SEO strategies, social
+              media marketing, and analytics to boost brand presence and drive
+              business growth.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/courses/course-3.svg" alt="" />
+            <h3>business</h3>
+            <p>
+              Explore the intersection of business and data science, learning to
+              analyze trends, optimize operations, and make strategic decisions
+              using data-driven insights.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/courses/course-4.svg" alt="" />
+            <h3>science and biology</h3>
+            <p>
+              Uncover the intricacies of life sciences, from cellular biology to
+              ecosystems, understanding biological concepts and their
+              applications in various fields.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/courses/course-5.svg" alt="" />
+            <h3>graphic design</h3>
+            <p>
+              Develop your creativity and technical skills in visual
+              communication, mastering design software and principles to create
+              captivating graphics and multimedia content.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/courses/course-6.svg" alt="" />
+            <h3>engineering</h3>
+            <p>
+              Delve into the fundamentals of engineering disciplines, from
+              mechanical to electrical, learning problem-solving and many more.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--courses section ends-->
+
+    <!--teachers section starts-->
+    <section class="teachers" id="teachers">
+      <h1 class="heading">expert <span>tutors</span></h1>
+      <div class="swiper teacher-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/tutors/tutor-1.jpg" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <h3>john deo</h3>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/tutors/tutor-3.jpg" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <h3>lamar lincon</h3>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/tutors/tutor-2.jpg" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <h3>jacob slim</h3>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/tutors/tutor-4.jpg" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <h3>emile johnson</h3>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/tutors/tutor-5.jpg" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <h3>sophia rodriguez</h3>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/tutors/tutor-6.jpg" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <h3>ava smith</h3>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--teachers section ends-->
+
+    <!--reviews section starts-->
+    <section id="reviews" class="reviews">
+      <h1 class="heading">student's <span>reviews</span></h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa
+              doloribus dolorum unde quia ducimus, id quisquam iusto temporibus
+              nobis accusamus veritatis quaerat reiciendis ex qui aut eaque
+              soluta minima.
+            </p>
+            <div class="user">
+              <img src="images/students/pic-1.jpg" alt="" />
+              <div class="user-info">
+                <h3>liam neeson</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa
+              doloribus dolorum unde quia ducimus, id quisquam iusto temporibus
+              nobis accusamus veritatis quaerat reiciendis ex qui aut eaque
+              soluta minima.
+            </p>
+            <div class="user">
+              <img src="images/students/pic-2.jpg" alt="" />
+              <div class="user-info">
+                <h3>john snow</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa
+              doloribus dolorum unde quia ducimus, id quisquam iusto temporibus
+              nobis accusamus veritatis quaerat reiciendis ex qui aut eaque
+              soluta minima.
+            </p>
+            <div class="user">
+              <img src="images/students/pic-3.jpg" alt="" />
+              <div class="user-info">
+                <h3>luka modirc</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa
+              doloribus dolorum unde quia ducimus, id quisquam iusto temporibus
+              nobis accusamus veritatis quaerat reiciendis ex qui aut eaque
+              soluta minima.
+            </p>
+            <div class="user">
+              <img src="images/students/pic-4.jpg" alt="" />
+              <div class="user-info">
+                <h3>mia lore</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa
+              doloribus dolorum unde quia ducimus, id quisquam iusto temporibus
+              nobis accusamus veritatis quaerat reiciendis ex qui aut eaque
+              soluta minima.
+            </p>
+            <div class="user">
+              <img src="images/students/pic-5.jpg" alt="" />
+              <div class="user-info">
+                <h3>cindy malen</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa
+              doloribus dolorum unde quia ducimus, id quisquam iusto temporibus
+              nobis accusamus veritatis quaerat reiciendis ex qui aut eaque
+              soluta minima.
+            </p>
+            <div class="user">
+              <img src="images/students/pic-6.jpg" alt="" />
+              <div class="user-info">
+                <h3>leah flare</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--reviews section ends-->
+
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/Contact us-bro.svg" alt="" />
+        </div>
+        <form action="" method="post">
+          <span>your name </span>
+          <input
+            type="text"
+            required
+            placeholder="enter your full name"
+            maxlength="45"
+            class="box"
+            name="name"
+          />
+          <span>your email </span>
+          <input
+            type="email"
+            required
+            placeholder="enter your email"
+            maxlength="45"
+            class="box"
+            name="email"
+          />
+          <span>your number </span>
+          <input
+            type="number"
+            required
+            placeholder="enter your number"
+            max="999999999"
+            min="0"
+            class="box"
+            name="number"
+            onkeypress="if(this.value.length == 10) return false"
+          />
+          <span>select courses</span>
+          <select name="courses" class="box" required>
+            <option value="" disabled selected>select the course --</option>
+            <option value="web development">web development</option>
+            <option value="science and biology">science and biology</option>
+            <option value="engineering">engineering</option>
+            <option value="digital marketing">digital marketing</option>
+            <option value="business">business</option>
+            <option value="graphic design">graphic design</option>
+            <option value="social studies">social studies</option>
+            <option value="data analysis">data analysis</option>
+            <option value="artificial intelligence">
+              artificial intelligence
+            </option>
+          </select>
+          <span>select gender</span>
+          <div class="radio">
+            <input type="radio" name="gender" value="male" id="male" />
+            <label for="male">male</label>
+            <input type="radio" name="gender" value="female" id="female" />
+            <label for="female">female</label>
+          </div>
+          <input type="submit" value="send message" class="btn" name="send" />
+        </form>
+      </div>
+    </section>
+    <!--contact section ends-->
+
+    <!--footer section starts-->
+    <footer class="footer">
+      <section>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <div class="credit">
+          © copyright @ 2024 by <span>youssef alatrash</span> | all rights
+          reserved
+        </div>
+      </section>
+    </footer>
+    <!--footer section ends-->
+
+    <!--swiper js link-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--custom js file link -->
+    <script src="script.js"></script>
+  </body>
+</html>
